@@ -35,7 +35,7 @@ const Car = ({ car, handleShow, setSelecTedCar }) => {
                     <span className='small d-block'>Post Date: {postDate}</span>
                     <Button className='d-block mx-auto mt-2' variant="primary"
                         onClick={handleBooking}>
-                        Buy Now
+                        Book Now
                     </Button>
                 </Card.Body>
             </Card>

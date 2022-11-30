@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import './Footer.css'
 
 const Footer = () => {
@@ -22,15 +23,15 @@ const Footer = () => {
 
                     <ul className="nav__ul">
                         <li>
-                            <a href="#">Online</a>
+                            <Link to="#">Online</Link>
                         </li>
 
                         <li>
-                            <a href="#">Print</a>
+                            <Link to="#">Print</Link>
                         </li>
 
                         <li>
-                            <a href="#">Alternative Ads</a>
+                            <Link to="#">Alternative Ads</Link>
                         </li>
                     </ul>
                 </li>
@@ -40,27 +41,27 @@ const Footer = () => {
 
                     <ul className="nav__ul nav__ul--extra">
                         <li>
-                            <a href="#">Hardware Design</a>
+                            <Link to="#">Hardware Design</Link>
                         </li>
 
                         <li>
-                            <a href="#">Software Design</a>
+                            <Link to="#">Software Design</Link>
                         </li>
 
                         <li>
-                            <a href="#">Digital Signage</a>
+                            <Link to="#">Digital Signage</Link>
                         </li>
 
                         <li>
-                            <a href="#">Automation</a>
+                            <Link to="#">Automation</Link>
                         </li>
 
                         <li>
-                            <a href="#">Artificial Intelligence</a>
+                            <Link to="#">Artificial Intelligence</Link>
                         </li>
 
                         <li>
-                            <a href="#">IoT</a>
+                            <Link to="#">IoT</Link>
                         </li>
                     </ul>
                 </li>
@@ -70,15 +71,15 @@ const Footer = () => {
 
                     <ul className="nav__ul">
                         <li>
-                            <a href="#">Privacy Policy</a>
+                            <Link to="#">Privacy Policy</Link>
                         </li>
 
                         <li>
-                            <a href="#">Terms of Use</a>
+                            <Link to="#">Terms of Use</Link>
                         </li>
 
                         <li>
-                            <a href="#">Sitemap</a>
+                            <Link to="#">Sitemap</Link>
                         </li>
                     </ul>
                 </li>
